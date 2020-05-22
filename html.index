@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Kontakt side</title>
+
+    <!--Meta description blandt andet til at hjælpe med CEO samt understøtter google søgninger.-->
+
+	<meta name="description" content="Kan du lide fodbold? Her på siden kan du finde tutorials om fodbold. En guide til hvordan du kan forbedre dig på fodboldbanen. ">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Fontawesome er brugt til at hente ikoner til sociale medier -->
+
+    <script src="https://kit.fontawesome.com/a944cea46b.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+
+    <!-- Bane blad icon -->
+	<link rel="shortcut icon" type="image/png" href="exam-logo-2sem-01.svg">
+
+</head>
+
+<body >
+  <!-- Reponsive navigation bar via bootstrap -->
+   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <!-- .container-fluid ændrer sig kontinuerligt, når du ændrer bredden på dit vindue / browser.-->
+       <div class="container-fluid">
+          <!-- Navbar class gør i dette tilfælde at der kommer en tynd streg som adskiller drop down når man trykker på den -->
+           <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                  <!-- Dette gør at man får burger-menuen frem når vinduet bliver mindre. Span er det icon der kommer frem, det vil sige 3 span class er = 3 iconer i burger-menuen -->
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>
+               <!-- Navbar/Header logo -->
+               <a class="navbar-brand" href="#"><img src="header-logo.png"></a>
+           </div>
+           <!-- Collapse navbar, samt navbar.-->
+           <div class="collapse navbar-collapse" id="navbar-collapse-main">
+               <ul class="nav navbar-nav navbar-right">
+                   <li><a class="line-effect" href="index.html">Forside</a></li>
+                   <!-- Dropdown under træning. -->
+                   <li class="dropdown">
+                       <a class="dropbtn line-effect active">Træning</a>
+                       <div class="dropdown-content">
+                           <a class="line-effect" href="#">Amatør</a>
+                           <a class="line-effect" href="#">Middel</a>
+                           <a class="line-effect" href="#">Expert</a>
+                       </div>
+                   <li><a class="line-effect" href="#">Om</a></li>
+                   <li><a href="contact.html" >Kontakt</a></li>
+               </ul>
+           </div>
+       </div>
+   </nav>
+
+   <div class="topbillede">
+     <div class="toptekst">
+       <h1>Fodbold tutorials for begyndere</h1>
+     </div>
+   </div>
+
+   <div class="Tutorial-1">
+    
+    <video width="600" height="400" poster="Elastico-still.jpg" id="TUT1" controls>
+  <source src="Br2_FIN.mp4" type="video/mp4">
+</video>
+    
+    <!--
+     <iframe src="https://www.youtube.com/embed/uv3hK0KidpU" frameborder="0" allowfullscreen width="600" height="400"></iframe>
+     -->
+   </div>
+   <div class="Tutorial-tekst1">
+     <h2>The ball roll</h2>
+     <span class="understreg"></span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+     <button onclick="openFullscreen();">SE TUTORIAL</button>
+   </div>
+
+
+
+<div class="Tutorial-2">
+    
+    
+    <video width="600" height="400" poster="Ballroll-still.jpg" id="TUT2" controls>
+  <source src="BrVAR_FINN.mp4" type="video/mp4">
+</video>
+    
+    <!--
+     <iframe src="https://www.youtube.com/embed/uv3hK0KidpU" frameborder="0" allowfullscreen width="600" height="400"></iframe>
+   </div>
+   -->
+   
+    </div>
+   
+   <div class="Tutorial-tekst2">
+     <h2>The ball roll</h2>
+     <span class="understreg"></span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+     <button onclick="openFullscreen();">SE TUTORIAL</button>
+   </div>
+
+
+
+<div class="Tutorial-3">
+     <iframe src="https://www.youtube.com/embed/uv3hK0KidpU" frameborder="0" allowfullscreen width="600" height="400"></iframe>
+   </div>
+   <div class="Tutorial-tekst3">
+     <h2>The ball roll</h2>
+     <span class="understreg"></span>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+   </div>
+
+
+
+<div class="usynlig-div"></div>
+
+
+
+
+   <footer>
+         <div class="footer-top">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-3 col-sm-6 col-xs-12 sektion-1">
+                         <h3>COPENHAGEN <br> E-BALL ACADEMY</h3>
+                         <p>Fodbold er en af de ting der altid kan forbedres, uanset ens niveau. Find de tutorials der passer dit fodbold niveau. Svedig skudtræning og frække finter er i  blandt de fodbold tutorials du  finder her på siden.</p>
+                     </div>
+
+
+                     <div class="col-md-6 col-sm-6 col-xs-12 sektion-2">
+                         <img src="exam-logo.png" alt="Logo" height="200px" width="200px">
+                     </div>
+
+
+                     <div class="col-md-3 col-sm-6 col-xs-12 sektion-3">
+                     <h2>Vores nyhedsbrev</h2>
+                     <p>Tryk her for at tilmelde dig vores nyhedsbrev, og gå aldrig glip af en ny fodbold tutorial igen.</p>
+                     <form action="">
+                         <input type="email" placeholder="E-mail">
+                         <input type="submit" value="TILMELD">
+                     </form>
+                     <br>
+                     <div class="so-me">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="footer-bottom-text"><p> &copy; 2020 COPENHAGEN E-BALL ACADEMY | All Rights Reserved</p></div>
+     </footer>
+
+
+
+
+
+
+<script>
+    var elem = document.getElementById("TUT1");
+    var elem = document.getElementById("TUT2");
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.mozRequestFullScreen) { /* Firefox */
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE/Edge */
+        elem.msRequestFullscreen();
+      }
+    }
+</script>
+
+
+
+
+
+
+</body>
+</html>
