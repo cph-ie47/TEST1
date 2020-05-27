@@ -1,5 +1,4 @@
            
-           
          <!-- Reponsive navigation bar via bootstrap --> 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
        <!-- .container-fluid ændrer sig kontinuerligt, når du ændrer bredden på dit vindue / browser.-->
@@ -21,14 +20,14 @@
                     <li><a class="line-effect" href="index.html">Forside</a></li>
                     <!-- Dropdown under træning. --> 
                     <li class="dropdown">
-                        <a class="dropbtn line-effect" href="begyndere.html">Tutorials</a>
+                        <a class="dropbtn line-effect active" href="begyndere.html">Tutorials</a>
                         <div class="dropdown-content">
                             <a class="line-effect" href="begyndere.html">Begynder</a>
-                            <a class="line-effect" href="oevet.html">Øvet</a>
+                            <a class="line-effect active" href="oevet.html">Øvet</a>
                             <a class="line-effect" href="avanceret.html">Avanceret</a>
                         </div>
                     <li><a class="line-effect" href="om.html">Om</a></li>
-                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                    <li><a href="kontakt.html" class="line-effect">Kontakt</a></li>
                 </ul>
             </div>
         </div>    
