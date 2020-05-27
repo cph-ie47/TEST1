@@ -1,0 +1,35 @@
+           
+           
+         <!-- Reponsive navigation bar via bootstrap --> 
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <!-- .container-fluid ændrer sig kontinuerligt, når du ændrer bredden på dit vindue / browser.-->
+        <div class="container-fluid">
+           <!-- Navbar class gør i dette tilfælde at der kommer en tynd streg som adskiller drop down når man trykker på den --> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                   <!-- Dette gør at man får burger-menuen frem når vinduet bliver mindre. Span er det icon der kommer frem, det vil sige 3 span class er = 3 iconer i burger-menuen --> 
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Navbar/Header logo --> 
+                <a class="navbar-brand" href="index.html"><img src="logo/CEA-logo.png" height="75px" width="auto " alt="Fodbold-logo"></a>
+            </div>
+            <!-- Collapse navbar, samt navbar.--> 
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="line-effect" href="index.html">Forside</a></li>
+                    <!-- Dropdown under træning. --> 
+                    <li class="dropdown">
+                        <a class="dropbtn line-effect" href="begyndere.html">Tutorials</a>
+                        <div class="dropdown-content">
+                            <a class="line-effect" href="begyndere.html">Begynder</a>
+                            <a class="line-effect" href="oevet.html">Øvet</a>
+                            <a class="line-effect" href="avanceret.html">Avanceret</a>
+                        </div>
+                    <li><a class="line-effect" href="om.html">Om</a></li>
+                    <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
